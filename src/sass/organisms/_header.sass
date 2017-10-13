@@ -1,0 +1,56 @@
+body
+    header
+        +flexbox  
+        width: 30vw
+        height: 100vh 
+        position: fixed
+        right: 0      
+        
+        
+        &::before
+            content: url("../img/fundo.png")
+                 
+        .content   
+            +flexbox
+            +align-items(center)
+            +flex-wrap(wrap)    
+            width: 100%
+            background: url("../img/Textura.png")
+            background-color: #fff
+            
+            .logo    
+                h1
+                    font-size: 34px;
+                    color: rgb(41, 41, 41);
+            
+            .menu-lateral
+                width: 100%
+                //margin-bottom: 70px;
+                
+                h2
+                    font-size: 30px;
+                    color: rgb(41, 41, 41);
+                
+                ul
+                    li
+                        font-size: 19px;
+                        line-height: 1.1;
+                
+                
+            
+            
+
+            
+        
+        
+
+    
+        
+        
+            
+
+                    
+
+
+        
+                
